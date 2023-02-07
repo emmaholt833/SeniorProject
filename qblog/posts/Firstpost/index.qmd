@@ -1,0 +1,18 @@
+---
+title: "First Blog Post"
+author: "Emma H Abel"
+date: "2023-02-06"
+---
+
+Welcome to my first blog post! If you don't already know, this blog is tracking the progress of my 3-month Senior Project. I am currently learning the basics of building an R package. My hope by the end of my project is to build a helpful, original package full of functions I use regularly.
+
+In the past few weeks, I have spent most of my time watching tutorials on YouTube to learn the basic structure of a package environment. Here is [one video I found particularly helpful](https://www.youtube.com/watch?v=47PN2VG3RmI). I thought he did a good job of explaining the different default documents that come with building a package project in Rstudio. 
+
+This is what I was looking at with the most basic package stucture. This is all default, just the bare bones of package creation. 
+
+![](firstpackage_example.JPG)
+
+After playing around with building some unique user-defined functions, I realized I have a lot to learn haha. My next steps are to learn more about UDFs (User Defined Functions) in R and how to make a good one. I also want to fulfill my goal of submitting a package to CRAN before the semester ends. After looking around, I know this will also take some time. I think [this page](https://www.marinedatascience.co/blog/2020/01/09/checklist-for-r-package-re-submissions-on-cran/) will come in handy.
+
+Another update coming soon!
+
