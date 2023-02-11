@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0801.1333                               -->
+<workbook source-build='2020.3.0 (20203.20.0801.1333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Game_Nodes' inline='true' name='federated.1iewndg11cuz6h16pq2gf1gk9fb8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Game_Nodes' name='textscan.15nck1w1pcvt5o1aogvnh1xm9a4a'>
+            <connection class='textscan' directory='C:/Users/Emma/Documents/WI23/SeniorProject/SeniorProject_github/dashboards/data' filename='Game_Nodes.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.15nck1w1pcvt5o1aogvnh1xm9a4a' name='Game_Nodes.csv' table='[Game_Nodes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Black' ordinal='1' />
+            <column datatype='integer' name='BlackElo' ordinal='2' />
+            <column datatype='date' name='Date' ordinal='3' />
+            <column datatype='string' name='ECO' ordinal='4' />
+            <column datatype='string' name='Event' ordinal='5' />
+            <column datatype='string' name='EventDate' ordinal='6' />
+            <column datatype='integer' name='GameNumber' ordinal='7' />
+            <column datatype='integer' name='HalfMoves' ordinal='8' />
+            <column datatype='integer' name='Moves' ordinal='9' />
+            <column datatype='string' name='Opening' ordinal='10' />
+            <column datatype='string' name='Result' ordinal='11' />
+            <column datatype='integer' name='Round' ordinal='12' />
+            <column datatype='string' name='Site' ordinal='13' />
+            <column datatype='string' name='White' ordinal='14' />
+            <column datatype='integer' name='WhiteElo' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.15nck1w1pcvt5o1aogvnh1xm9a4a' name='Game_Nodes.csv' table='[Game_Nodes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Black' ordinal='1' />
+            <column datatype='integer' name='BlackElo' ordinal='2' />
+            <column datatype='date' name='Date' ordinal='3' />
+            <column datatype='string' name='ECO' ordinal='4' />
+            <column datatype='string' name='Event' ordinal='5' />
+            <column datatype='string' name='EventDate' ordinal='6' />
+            <column datatype='integer' name='GameNumber' ordinal='7' />
+            <column datatype='integer' name='HalfMoves' ordinal='8' />
+            <column datatype='integer' name='Moves' ordinal='9' />
+            <column datatype='string' name='Opening' ordinal='10' />
+            <column datatype='string' name='Result' ordinal='11' />
+            <column datatype='integer' name='Round' ordinal='12' />
+            <column datatype='string' name='Site' ordinal='13' />
+            <column datatype='string' name='White' ordinal='14' />
+            <column datatype='integer' name='WhiteElo' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Black]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Black</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BlackElo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BlackElo]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>BlackElo</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ECO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ECO]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>ECO</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Event]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Event</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EventDate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EventDate]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>EventDate</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GameNumber]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>GameNumber</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HalfMoves</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HalfMoves]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>HalfMoves</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moves</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Moves]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Moves</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opening</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Opening]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Opening</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Result</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Result]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Result</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Round</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Round]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Round</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Site</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Site]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>Site</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[White]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>White</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WhiteElo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WhiteElo]</local-name>
+            <parent-name>[Game_Nodes.csv]</parent-name>
+            <remote-alias>WhiteElo</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Black Elo' datatype='integer' name='[BlackElo]' role='measure' type='quantitative' />
+      <column caption='Event Date' datatype='string' name='[EventDate]' role='dimension' type='nominal' />
+      <column caption='Game Number' datatype='integer' name='[GameNumber]' role='dimension' type='ordinal' />
+      <column caption='Half Moves' datatype='integer' name='[HalfMoves]' role='measure' type='quantitative' />
+      <column caption='White Elo' datatype='integer' name='[WhiteElo]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Game_Nodes.csv' datatype='table' name='[__tableau_internal_object_id__].[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Emma/Documents/My Tableau Repository/Datasources/Game_Nodes.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/11/2023 02:43:00 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='Game_Nodes' increment-value='%null%' refresh-type='create' rows-inserted='684' timestamp-start='2023-02-11 02:43:00.780' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>684</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Black</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Black]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Black</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BlackElo</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BlackElo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BlackElo</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>640</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ECO</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ECO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ECO</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>236</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Event</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Event]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EventDate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EventDate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EventDate</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GameNumber</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[GameNumber]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GameNumber</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>684</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HalfMoves</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HalfMoves]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HalfMoves</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>147</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Moves</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Moves]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Moves</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>82</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Opening</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Opening]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Opening</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>149</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Result</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Result]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Result</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Round</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Round]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Round</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Site</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Site]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Site</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>White</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[White]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>White</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WhiteElo</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WhiteElo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WhiteElo</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Game_Nodes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Game_Nodes.csv' id='Game_Nodes.csv_92E8D3D151B24386BF03C516C3E4967E'>
+            <properties context=''>
+              <relation connection='textscan.15nck1w1pcvt5o1aogvnh1xm9a4a' name='Game_Nodes.csv' table='[Game_Nodes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Black' ordinal='1' />
+                  <column datatype='integer' name='BlackElo' ordinal='2' />
+                  <column datatype='date' name='Date' ordinal='3' />
+                  <column datatype='string' name='ECO' ordinal='4' />
+                  <column datatype='string' name='Event' ordinal='5' />
+                  <column datatype='string' name='EventDate' ordinal='6' />
+                  <column datatype='integer' name='GameNumber' ordinal='7' />
+                  <column datatype='integer' name='HalfMoves' ordinal='8' />
+                  <column datatype='integer' name='Moves' ordinal='9' />
+                  <column datatype='string' name='Opening' ordinal='10' />
+                  <column datatype='string' name='Result' ordinal='11' />
+                  <column datatype='integer' name='Round' ordinal='12' />
+                  <column datatype='string' name='Site' ordinal='13' />
+                  <column datatype='string' name='White' ordinal='14' />
+                  <column datatype='integer' name='WhiteElo' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Results'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Chess &lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Game_Nodes' name='federated.1iewndg11cuz6h16pq2gf1gk9fb8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iewndg11cuz6h16pq2gf1gk9fb8'>
+            <column datatype='integer' name='[Moves]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Result]' role='dimension' type='nominal' />
+            <column-instance column='[Moves]' derivation='Avg' name='[avg:Moves:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Result]' derivation='Count' name='[cnt:Result:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Result]' derivation='None' name='[none:Result:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1iewndg11cuz6h16pq2gf1gk9fb8].[none:Result:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1iewndg11cuz6h16pq2gf1gk9fb8].[cnt:Result:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1iewndg11cuz6h16pq2gf1gk9fb8].[none:Result:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1iewndg11cuz6h16pq2gf1gk9fb8].[avg:Moves:qk]</rows>
+        <cols>[federated.1iewndg11cuz6h16pq2gf1gk9fb8].[none:Result:nk]</cols>
+      </table>
+      <simple-id uuid='{BB742BB4-15E1-40E2-A245-0476F16BD1DF}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Results'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1iewndg11cuz6h16pq2gf1gk9fb8].[none:Result:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9643A44E-25DE-4855-B9BB-F0E32C6665D2}' />
+    </window>
+  </windows>
+</workbook>
