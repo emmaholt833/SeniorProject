@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "qblog",
     "section": "",
-    "text": "First Blog Post\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nEmma H Abel\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 3, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "First Blog Post\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nEmma H Abel\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nSecond Blog Post\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 6, 2023\n\n\nEmma H Abel\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 3, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Firstpost/index.html",
@@ -33,5 +33,12 @@
     "title": "First Blog Post",
     "section": "",
     "text": "Welcome to my first blog post! If you don’t already know, this blog is tracking the progress of my 3-month Senior Project. I am currently learning the basics of building an R package. My hope by the end of my project is to build a helpful, original package full of functions I use regularly.\nIn the past few weeks, I have spent most of my time watching tutorials on YouTube to learn the basic structure of a package environment. Here is one video I found particularly helpful. I thought he did a good job of explaining the different default documents that come with building a package project in Rstudio.\nThis is what I was looking at with the most basic package stucture. This is all default, just the bare bones of package creation.\n\nAfter playing around with building some unique user-defined functions, I realized I have a lot to learn haha. My next steps are to learn more about UDFs (User Defined Functions) in R and how to make a good one. I also want to fulfill my goal of submitting a package to CRAN before the semester ends. After looking around, I know this will also take some time. I think this page will come in handy.\nAnother update coming soon!"
+  },
+  {
+    "objectID": "posts/second/index.html",
+    "href": "posts/second/index.html",
+    "title": "Second Blog Post",
+    "section": "",
+    "text": "Hello everyone! I am excited to share my progress with you regarding my senior project.\nI came up with the idea for a simple first package. It is called simplegames and will consist of several mini games such as word unscrambling and tic-tac-toe. I have almost completed my wordscramble function for this game. I still want to include a retaining point system and fix a couple of bugs. After I finish these tasks, I plan to start the checklist to submit my package to CRAN. I can add to this package later on if I want to create more games. If CRAN accepts my package, I think anyone could install simplegames with the next R update.\nHere is how my function works so far:\n\nA user calls the wordscramble() function and uses the game_len argument to tell my function how many words they want to guess - the default is 2 words. They then get 3 chances per word to guess the answer.\nI found the data on Kaggle titled: English Word Frequency. This dataset consists of the top 333,333 frequently used words in the English language. For my game, I filtered this data to words with 4-10 letters. I also used Excel to look at the top 2,000 words and delete any inappropriate words or commonly unrecognizable ones."
   }
 ]

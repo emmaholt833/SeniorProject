@@ -1,0 +1,19 @@
+---
+title: "Second Blog Post"
+author: "Emma H Abel"
+date: "2023-02-06"
+---
+
+Hello everyone! I am excited to share my progress with you regarding my senior project.
+
+I came up with the idea for a simple first package. It is called simplegames and will consist of several mini games such as word unscrambling and tic-tac-toe. I have almost completed my wordscramble function for this game. I still want to include a retaining point system and fix a couple of bugs. After I finish these tasks, I plan to start the checklist to submit my package to CRAN. I can add to this package later on if I want to create more games. If CRAN accepts my package, I think anyone could install simplegames with the next R update.
+
+Here is how my function works so far: 
+
+![](game_example.JPG)
+
+A user calls the wordscramble() function and uses the game_len argument to tell my function how many words they want to guess - the default is 2 words. They then get 3 chances per word to guess the answer.
+
+I found the data on Kaggle titled: [English Word Frequency](https://www.kaggle.com/datasets/rtatman/english-word-frequency). This dataset consists of the top 333,333 frequently used words in the English language. For my game, I filtered this data to words with 4-10 letters. I also used Excel to look at the top 2,000 words and delete any inappropriate words or commonly unrecognizable ones. 
+
+My next steps are to fix my function to be user-ready. Then I want to submit my package, simplegames, to CRAN. While I'm waiting for results, I plan to start a new package meant for an easier machine learning experience.
